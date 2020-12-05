@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhod Ubaydullaev</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="{% url 'ru' %}">Ru</a>
+        <a class="navbar-brand" style="margin-right: 1250px;" href="{% url 'home' %}">En</a>
+      </nav>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/File_001.png' %}" alt="">
+                    <hr>
+                    <h4>Hi I'm Farhod</h4>
+                    <p>I love coding, doing research and collaborating</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body">
+                    <h4>My Journey to Python Development</h4>
+                    <hr>
+                    <p>3 months after writing my first Hello World program on September 9th 2019 (while dreaming about having my own business) 
+                        I heard about SaaS (Software as a Service) Companies which develop software for your business but they were so expensive.
+                        So I wanted to create ERP (Enterprise resource planning) system for my business
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>My experience as a Python Developer</h5>
+                    <hr>
+                    <p>Currently have some projects especially for Bussines Management System</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>What I know</h5>
+                    <hr>
+                    <p>Python, Django, Django Rest Framework, HTML/CSS</p>
+                    <p>PS: Working on Mongo DB, MySql and Machine Learning</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>How I Learn</h5>
+                    <hr>
+                    <p>Reverse Engineer & Build Ugly Prototypes First</p>
+                    <p>I can learn just about anything by having a final product to tear apart piece by piece. I break
+                        the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+                    
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>My Short Term Goals</h5>
+                    <hr>
+                    <p>After almost one year of learning Web Technologies like Python Django, DRF, HTML/CSS I'm ready to learn something new.</p>
+                    <p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
